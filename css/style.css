@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+:root{
+    --main-color: #006CB7;
+}
+
+.navbar{
+    background-color: var(--main-color) !important;
+}
+
+.navbar .nav-link{
+    color: white !important;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover{
+    transform: scale(1.2) rotateZ(10deg);
+}
+
+.navbar .navbar-toggler{
+    border: none;
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.boxes{
+    padding: 80px 0 50px;
+}
+
+.boxes i{
+    color: var(--main-color);
+}
+
+.boxes .btn{
+    background-color: var(--main-color);
+}
