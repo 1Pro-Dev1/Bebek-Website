@@ -13,6 +13,7 @@ body{
 
 .navbar{
     background-color: var(--main-color) !important;
+    box-shadow: 0 0 6px #00000066;
 }
 
 .navbar .nav-link{
@@ -21,7 +22,7 @@ body{
 }
 
 .navbar .nav-link:hover{
-    transform: scale(1.2) rotateZ(10deg);
+    transform: rotateZ(10deg);
 }
 
 .navbar .navbar-toggler{
@@ -41,5 +42,45 @@ body{
 }
 
 .boxes .btn{
+    background-color: var(--main-color);
+}
+
+.bundels{
+    background-color: var(--main-color);
+    padding: 80px 0;
+}
+
+.seperator{
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin: auto;
+}
+
+.fa-check{
+    color: lime;
+}
+
+.section-heading::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
+.section-heading::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 61.5px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
     background-color: var(--main-color);
 }
