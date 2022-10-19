@@ -7,6 +7,14 @@ body{
     /* font-family: 'Raleway', sans-serif; */
 }
 
+.text-main-color{
+    color: var(--main-color);
+}
+
+.bg-main-color{
+    background-color: var(--main-color);
+}
+
 :root{
     --main-color: #006CB7;
 }
@@ -35,6 +43,22 @@ body{
 
 .boxes{
     padding: 80px 0 50px;
+    background-image: url(../imgs/bg-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.boxes::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.753);
 }
 
 .boxes i{
@@ -43,6 +67,7 @@ body{
 
 .boxes .btn{
     background-color: var(--main-color);
+    z-index: 2;
 }
 
 .bundels{
@@ -83,4 +108,60 @@ body{
     transform: translateX(-50%);
     border: 2px solid white;
     background-color: var(--main-color);
+}
+
+.products {
+    padding: 80px 0;
+}
+
+.products .card img{
+    border-radius: 5px;
+}
+
+.products .card h4{
+    height: 54px;
+}
+
+.products .card .desc{
+    height: 120px;
+}
+
+.products .section-heading::after{
+    border: 2px solid var(--main-color);
+    background-color: white;
+}
+
+.products .section-heading::before{
+    background-color: var(--main-color);
+}
+
+.reviews{
+    padding: 80px 0 ;
+    background-color: var(--main-color);
+}
+
+.reviews .box{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.253);
+    max-width: 100%;
+}
+
+
+.reviews .box h3{
+    margin: 0 0 10px;
+}
+
+.reviews .fa-star{
+    color: #ffc107;
+}
+
+
+.reviews .box .comment{
+    color: #777;
+    line-height: 1.5;
+    margin: 10px 0 0;
+    font-size: 18px;
 }
