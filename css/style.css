@@ -50,6 +50,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .boxes::before{
@@ -90,9 +91,17 @@ body{
     z-index: 2;
 }
 
+.boxes .baby-1{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 200px;
+}
+
 .bundels{
     background-color: var(--main-color);
     padding: 80px 0;
+    overflow: hidden;
 }
 
 .seperator{
@@ -158,6 +167,7 @@ body{
 .reviews{
     padding: 80px 0 ;
     background-color: var(--main-color);
+    overflow: hidden;
 }
 
 .reviews .box{
