@@ -93,7 +93,7 @@ body{
 
 .boxes .baby-1{
     position: absolute;
-    bottom: -10px;
+    bottom: -30px;
     right: 0;
     width: 200px;
 }
@@ -141,6 +141,7 @@ body{
 
 .products {
     padding: 80px 0;
+    overflow: hidden;
 }
 
 .products .card img{
@@ -236,4 +237,14 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* About */
+
+.about-content{
+    padding: 80px 0 55px;
+    max-height: 100vh;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+
 }
