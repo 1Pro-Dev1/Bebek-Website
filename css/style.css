@@ -42,6 +42,15 @@ body{
     box-shadow: none;
 }
 
+.navbar .fa-cart-shopping{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-left: 2px white solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .boxes{
     padding: 80px 0 50px;
     background-image: url(../imgs/bg-1.jpg);
@@ -248,3 +257,21 @@ body{
     font-family: 'Raleway', sans-serif;
 
 }
+
+.product-page{
+    height: 100%;
+    margin-top: 76px;
+    padding: 80px 0 10px;
+}
+
+.product-page .container,
+.product-page .row{
+    height: 100%;
+}
+
+.product-page img{
+    width: 570px;
+    max-width: 100%;
+    top: 150px;
+}
+
