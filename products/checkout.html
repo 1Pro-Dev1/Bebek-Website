@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,9 +9,9 @@
         rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
         crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Bebek® Egypt | About us</title>
+        <link rel="stylesheet" href="../css/all.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Bebek® Egypt</title>
         <link rel="shortcut icon" href="imgs/Bebek-icon.png" type="image/png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,42 +21,37 @@
 
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="imgs/Bebek-Logo.jpg" alt="Bootstrap" width="100%" height="50">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../imgs/Bebek-Logo.jpg" alt="Bebek" width="100%" height="50">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link p-3" href="index.html">Home</a>
-                        <a class="nav-link p-3" href="#">About us</a>
-                        <a class="nav-link p-3" href="contact.html">Contact us</a>
+                        <a class="nav-link p-3" href="../index.html">Home</a>
+                        <a class="nav-link p-3" href="../about.html">About us</a>
+                        <a class="nav-link p-3" href="../contact.html">Contact us</a>
                     </div>
                 </div>
-                <a href="products/checkout.html">
+                <a href="#">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </a>
             </div>
         </nav>
 
-        <div class="about-content" style="margin-top: 76px;">
+        <div class="checkout">
             <div class="container">
-                <h1 class="mb-5">About Bebek</h1>
-                <h3 class="text-black-50">
-                    Bebek is founded by a professional team who both understands parents'
-                    needs and children's safety requirements. As middle-class mothers and 
-                    fathers are looking for non-harmful products for their toddlers, 
-                    the need to find premium quality at a reasonable cost arises. Here comes 
-                    Bebek to the rescue.
-                </h3>
-                <h3 class="text-black-50 mt-3">
-                    Bebek ensures you find great newborn and toddler products with high-quality 
-                    materials yet ones you can afford. Our products are imported with French and 
-                    Turkish specifications and designed by dental professionals so we can guarantee 
-                    healthy breastfeeding for your toddlers.
-                </h3>
+                <div class="products">
+                    <h1 class="text-center text-black-50 empty-cart">Shopping Cart is empty</h1>
+                </div>
+                <h1 class="text-black-50 text-center mt-5 purchase"  style="display: none;">All items has been purchased</h1>
+                <div class="d-flex align-items-center justify-content-center mt-5 button-cont">
+                    <a class="btn btn-primary" role="button">Checkout</a>
+                </div>
+            </div>
         </div>
-
+        
+        <script src="../js/checkout.js"></script>
     </body>
 </html>

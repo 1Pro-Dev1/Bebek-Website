@@ -275,3 +275,23 @@ body{
     top: 150px;
 }
 
+
+/*Checkout*/
+
+.checkout{
+    padding: 20px 0 20px;
+    margin-top: 76px;
+}
+
+.checkout .products{
+    border: 1px solid rgba(119, 119, 119, 0.356);
+    border-radius: 10px;
+    box-shadow: rgb(119 119 119 / 36%) 2px 2px 3px;
+    padding: 20px;
+}
+
+.alert{
+    top: 100px;
+    width: 80%;
+    margin: auto;
+}
