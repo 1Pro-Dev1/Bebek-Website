@@ -86,6 +86,7 @@ if (localStorage.getItem("products") == null){
             pricesm.innerText = `Price: 003 EGP`
     
         }
+
     }
 }
 

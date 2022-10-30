@@ -295,3 +295,20 @@ body{
     width: 80%;
     margin: auto;
 }
+
+.spacer{
+    aspect-ratio: 960/75;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1{
+    background-image: url("../imgs/wave4.svg");
+}
+
+
+.layer2{
+    background-image: url("../imgs/wave5.svg");
+}
